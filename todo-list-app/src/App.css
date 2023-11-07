@@ -1,0 +1,113 @@
+input {
+  border: 2px solid grey;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+h2 {
+
+}
+
+.tittle{
+
+}
+
+.add-btn {
+  border: 2px solid #008bb9;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #008bb9;
+  color: white;
+  padding: 3px;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Estilo para el contenedor de la tarea */
+.task {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+/* Estilo para el texto de la tarea */
+.task span {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Estilo para el botón de completar */
+.task button {
+  background-color:  #008bb9;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task button:hover {
+  background-color: #008bb9;
+}
+
+.task-list {
+  border: 2px solid #1C274C;
+  margin: 15px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+
+.task-complete-button {
+  display: inline-block;
+}
+
+.task-complete-button.Completed {
+  display: none; 
+}
