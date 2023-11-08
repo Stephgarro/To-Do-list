@@ -84,7 +84,7 @@ color: #ffffff;
 
 
 
-/* Estilo para el contenedor de la tarea */
+
 .task {
   display: flex;
   background-color: #ffffff;
@@ -95,13 +95,13 @@ color: #ffffff;
   justify-content: center;
 }
 
-/* Estilo para el texto de la tarea */
+
 .task span {
   font-size: 16px;
   margin-bottom: 8px;
 }
 
-/* Estilo para el botón de completar */
+
 .task button {
   background-color: #008bb9;
   color: #fff;
