@@ -1,3 +1,7 @@
+body {
+  background-color:  black;
+}
+
 input {
   border: 2px solid grey;
     border-radius: 5px;
@@ -5,11 +9,26 @@ input {
 }
 
 h2 {
-
+color:#fff
 }
 
-.tittle{
+.close-btn{
+  background:  black;
+  color: white;
+  border: 2px solid #1C274C;
+}
 
+.congratulations-text{
+color: #ffffff;
+}
+
+.blok-container{
+display: flex;
+}
+
+
+.tittle{
+color: #ffffff;
 }
 
 .add-btn {
@@ -25,7 +44,7 @@ h2 {
 
 .App {
   text-align: center;
-  display: flex;
+ 
 }
 
 .App-logo {
@@ -73,6 +92,7 @@ h2 {
   padding: 16px;
   margin: 8px;
   border-radius: 4px;
+  justify-content: center;
 }
 
 /* Estilo para el texto de la tarea */
@@ -83,13 +103,18 @@ h2 {
 
 /* Estilo para el botón de completar */
 .task button {
-  background-color:  #008bb9;
+  background-color: #008bb9;
   color: #fff;
   border: none;
-  padding: 8px 16px;
+  padding: 6px 14px;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-left: 23px;
+  display: flex;
+  margin-top: 22px;
+  max-width: 10px;
+  justify-content: center;
 }
 
 .task button:hover {
@@ -98,10 +123,12 @@ h2 {
 
 .task-list {
   border: 2px solid #1C274C;
-  margin: 15px;
+  margin: 4px;
   border-radius: 4px;
   padding: 20px;
+  margin-top: 20px;
 }
+
 
 
 .task-complete-button {
