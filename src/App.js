@@ -1,7 +1,4 @@
 
-
-
-
 import React, { useState } from 'react';
 import TaskList from './components/TaskList';
 import { DragDropContext } from 'react-beautiful-dnd';
