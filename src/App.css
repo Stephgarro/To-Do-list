@@ -11,8 +11,22 @@ input {
   border-radius: 5px;
   width: 50%;
   height: 50px;
+  margin-left: 10px;
 }
 
+.calendar {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.react-calendar {
+  border: 5px solid #00ffff1f;
+  border-radius: 10px;
+  background-color: lightcyan;
+}
 
 .todo-list {
   border: 1px solid #ddd;
@@ -53,23 +67,23 @@ input {
 }
 
 .to-do {
-  background-color: #f8d7da; /* Light red for to-do items */
+  background-color: #f8d7da; 
 }
 
 .doing {
-  background-color: #93cee1; /* Light yellow for doing items */
+  background-color: #93cee1;
 }
 
 .code-review {
-  background-color: #a9edb9; /* Light green for code review items */
+  background-color: #a9edb9; 
 }
 
 .test {
-  background-color: #ddaee9; /* Light blue for test items */
+  background-color: #ddaee9; 
 }
 
 .done {
-  background-color: #ff9a7b; /* Light cyan for done items */
+  background-color: #ff9a7b; 
 }
 
 
