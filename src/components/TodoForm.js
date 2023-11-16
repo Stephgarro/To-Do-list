@@ -20,7 +20,7 @@ const TodoForm = ({ addTodo }) => {
         onChange={(e) => setText(e.target.value)}
         placeholder="New task..."
       />
-      <button onClick={handleAddTodo}>Add Task</button>
+      <button className='add-btn' onClick={handleAddTodo}>Add Task</button>
     </div>
   );
 };
